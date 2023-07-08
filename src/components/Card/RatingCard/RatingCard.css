@@ -1,0 +1,68 @@
+.ratingcard-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.ratingcard-card:not(:last-child){
+    
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+
+.ratingcard-user{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.ratingcard-user-details{
+    display: flex;
+    align-items: center;
+}
+
+.ratingcard-img-span{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.ratingcard-img{
+    height: 100%;
+}
+
+.ratingcard-rating-div{
+    background-color: green;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.ratingcard-rating{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    margin-right: 3px;
+}
+
+.ratingcard-card-name{
+    display: inline-block;
+    padding: 0.5rem;
+    margin: 0;
+}
+
+.ratingcard-price, .ratingcard-name{
+    color: rgba(0,0,0,0.7);
+    padding: 0.5rem;
+}
+
+.ratingcard-rating-svg{
+    height: 1.2rem;
+    fill: white;
+}

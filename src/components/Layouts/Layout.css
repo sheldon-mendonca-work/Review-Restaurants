@@ -1,0 +1,39 @@
+main{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.heading2{
+    padding: 1rem;
+    transition: all 0.2s;
+    margin: 0;
+    font-size: 2rem;
+}
+
+
+.layoutHeading{
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem 3rem;
+    align-items: center;
+}
+
+.heading1{
+    font-size: 3rem;
+    margin: 0 auto;
+}
+
+.layoutHeading-svg{
+    height: 2rem;
+    padding: 1rem;
+}
+
+.default-btn{
+    color: white;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    background-color: rgb(238,79,95);
+    border: none;
+    font-size: 1rem;
+    border-radius: 1rem;
+}

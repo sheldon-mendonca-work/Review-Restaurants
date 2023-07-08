@@ -1,0 +1,15 @@
+.productlist-section{
+    padding: 1rem;
+}
+
+.productlist-heading3{
+    text-align: left;
+}
+
+.productlist-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 0.5rem;
+}
