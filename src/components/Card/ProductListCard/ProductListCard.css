@@ -13,3 +13,12 @@
     justify-content: center;
     padding: 0.5rem;
 }
+
+.productlist-link{
+    color: rgb(73, 160, 235);
+    cursor: pointer;
+}
+
+.productlist-link:hover{
+    text-decoration: underline;
+}

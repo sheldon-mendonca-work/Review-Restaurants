@@ -9,7 +9,7 @@ export default function ProductListCard (props){
     const navigate = useNavigate();
 
     return <section className="productlist-section">
-        <h3 className='productlist-heading3'>Dishes by <span onClick={()=>navigate(`/restaurant/${id}`)}>{name}</span></h3>
+        <h3 className='productlist-heading3'>Dishes by <span className="productlist-link" onClick={()=>navigate(`/restaurant/${id}`)}>{name}</span></h3>
         <div className="productlist-list">
             { menu.length === 0 && <h3>No items on menu...</h3> }
             {

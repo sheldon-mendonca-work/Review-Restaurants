@@ -25,10 +25,10 @@ const HomePage = () => {
             <div>
                 {
                     cuisineData.map(item => (
-                        <button className="default-btn" key={item.id} onClick={()=>filterCuisineBtnHandler(item.id)}>{item.name}</button>
+                        <button className={`default-btn ${filterByCuisine === item.id ? "default-btn-active" : ""}`} key={item.id} onClick={()=>filterCuisineBtnHandler(item.id)}>{item.name}</button>
                     ))
                 }
-                <button className="default-btn" onClick={()=>filterCuisineBtnHandler(0)}>All</button>
+                <button className={`default-btn ${filterByCuisine === 0 ? "default-btn-active" : ""}`} onClick={()=>filterCuisineBtnHandler(0)}>All</button>
             </div>
             <>
                 { getRestaurantData().map(item => <ProductListCard key={item.id} restaurantList={item} />)}

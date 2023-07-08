@@ -15,7 +15,7 @@ const Layout = ({children}) => {
     return <>
     <div className='layoutHeading'>
         { locationType !== "" && <LeftArrowIcon className="layoutHeading-svg" onClick={()=>navigate(-1)} />}
-        <h1 className='heading1'>Food Ordering App</h1>
+        <h1 className='heading1' onClick={()=>navigate('/')}>Food Ordering App</h1>
     </div>
     <main>
         {children}

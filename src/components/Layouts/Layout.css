@@ -21,6 +21,7 @@ main{
 .heading1{
     font-size: 3rem;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 .layoutHeading-svg{
@@ -36,4 +37,20 @@ main{
     border: none;
     font-size: 1rem;
     border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    opacity: 0.8;
+}
+
+.default-btn:hover{
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    transform: translateY(-3px);
+}
+
+.default-btn:active{
+    transform: translateY(0);
+}
+
+.default-btn-active{
+    opacity: 1;
 }
